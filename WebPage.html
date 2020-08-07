@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Robotics Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="hero">
+      <div class="nav-bar">
+        <div class="nav-logo">
+          <img src="C:\Users\AJEET\Desktop\RC\rc_logo.png" alt="">
+        </div>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-close" onclick="closeMenu()"></i>
+          <ul>
+            <a href="#"><li>HOME</li></a>
+            <a href="http://roboticsclub.mmmut.ac.in/rc/"><li>ABOUT</li></a>
+            <a href="#"><li>EVENTS</li></a>
+          </ul>
+          <a href="http://www.mmmut.ac.in/"><img src="C:\Users\AJEET\Desktop\RC\mmm_logo.png" alt=""></a>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </div>
+      <div class="title">
+        <h1>Welcome to <br><span>Robotics Club</span></h1>
+        <a href="file:///C:/Users/AJEET/Desktop/ANIMATION/Ultra%20Website/SignUp%20page.html"><button type="button" class="btn" name="button">SINGN UP</button></a>
+      </div>
+        <div class="bar">
+          <div class="search-icon">
+
+            <a href="https://www.google.com/" target="_blank"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+          <div class="social-icon">
+            <a href="https://www.facebook.com/roboticsclub.mmmut"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/robotics_club_mmmut/"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="notifications">
+          <div class="contents">
+            <small>Hello Folks!<br/> My name is sumit kumar. I am electronics and communication engineering student.</small>
+
+          </div>
+          <div class="notification-img">
+            <img src="C:\Users\AJEET\Desktop\RC\Sumit.jpg" alt="">
+          </div>
+        </div>
+    </div>
+    <script>
+      var show = document.getElementById("nav-links");
+          function showMenu(){
+            show.style.right = "0"
+          }
+          function closeMenu(){
+            show.style.right = "-200px"
+          }
+    </script>
+  </body>
+</html>
