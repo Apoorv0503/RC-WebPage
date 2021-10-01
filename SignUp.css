@@ -1,7 +1,7 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: Open Sans;
 }
 .mak{
   height: 100%;
@@ -25,7 +25,7 @@
   width: 220px;
   margin: 35px auto;
   position: relative;
-  box-shadow: 0 0 20px 9px #fff61241;
+  box-shadow: 0 0 20px 10px #fff61241;
   border-radius: 30px;
 }
 .toggle-btn{
@@ -79,7 +79,7 @@
   margin: 30px 10px 30px 0;
 }
 span{
-  color: #777;
+  color: #787;
   font-size: 12px;
   bottom: 64px;
   position: absolute;
