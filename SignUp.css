@@ -55,14 +55,14 @@
 }
 .input-fd{
   width: 100%;
-  padding: 10px 0;
+  padding: 10px 0 10px 0;
   border-left: 0;
   border-right: 0;
   border-top: 0;
   border-bottom: 1px solid #999;
   outline: none;
   background: transparent;
-  color: white;
+  color: #FFFFFF;
 }
 .submit-btn{
   width: 85%;
